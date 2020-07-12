@@ -3,6 +3,11 @@
 # Planet and rocket data are supplied in the program.
 
 # Program Usage: ./lander.awk
+#
+# Created by Sasha Shkolnikov. July 12, 2020.
+
+# All Rights Reserved.
+#
 
 BEGIN {
 
@@ -22,7 +27,7 @@ BEGIN {
     vel_d = 0                   # Change in velocity, in m/sec
     vel_eff = 0                 # Effective rocket exhaust velocity, in m/sec
 
-    height_o = 1000                  # Original lander height from planet surface, in m
+    height_o = 500                  # Original lander height from planet surface, in m
     height_c = 0                   # Updated lander height from planet surface: h = ho + vo Δt + a (Δt)2 / 2, in m
 
     time_o  = 0                  # Time elapsed from start, in sec
