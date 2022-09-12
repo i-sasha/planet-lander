@@ -10,7 +10,8 @@
 
 BEGIN {
 
-    FS = ":"                    # Set the 'planets' field separator, as of line 3
+#    FS = ":"                    # Set the 'planets' field separator, as of line 3 - Applies to old game version only
+    
     IGNORECASE = 1              # Set to non-zero value to have all regexp and string operations ignore case. 
 
     mass_o = 0                  # Lander + fuel mass at start, in kgs
